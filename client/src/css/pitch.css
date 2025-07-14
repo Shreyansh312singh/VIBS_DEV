@@ -1,0 +1,61 @@
+.business-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.business-form-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.business-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.business-form input,
+.business-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.business-form input:focus,
+.business-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.business-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.readonly-email {
+  background-color: #eee;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.business-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.business-form button:hover {
+  background-color: #0056b3;
+}

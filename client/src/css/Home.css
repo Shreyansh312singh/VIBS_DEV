@@ -1,0 +1,60 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #001f3f;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-left {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.navbar-right button {
+  margin-left: 15px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #001f3f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section {
+  padding: 100px 50px;
+  text-align: center;
+}
+
+.about-section {
+  background-color: #ffffff;
+}
+
+.investor-section,
+.business-section {
+  background-color: #e6f0ff;
+}
+
+.btn-group button {
+  margin: 10px;
+  padding: 12px 25px;
+  background-color: #001f3f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}

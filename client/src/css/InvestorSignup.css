@@ -1,0 +1,61 @@
+.container {
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background-color: #f2f2f2;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="url"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  gap: 10px;
+}
+
+button {
+  background-color: #5a67d8;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #434190;
+}
+
+.error-message {
+  color: red;
+  font-weight: 500;
+  text-align: center;
+}

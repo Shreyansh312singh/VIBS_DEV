@@ -1,0 +1,101 @@
+.company-profile-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.company-profile-left {
+  flex: 1;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-profile-left h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.company-profile-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.company-profile-left li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #444;
+}
+
+.company-profile-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.business-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.business-header button {
+  padding: 10px 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.business-header button:hover {
+  background-color: #45a049;
+}
+
+.business-content {
+  flex: 1;
+}
+
+.business-card {
+  background: #f0f7ff;
+  border-left: 5px solid #007BFF;
+  padding: 15px 20px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+}
+
+.business-card p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: #c0392b;
+}

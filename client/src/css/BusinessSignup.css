@@ -1,0 +1,49 @@
+.business-signup-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.business-signup-container h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.business-signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.business-signup-form input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.business-signup-form button {
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.business-signup-form button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
